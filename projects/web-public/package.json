@@ -10,14 +10,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@thnbi/design-system": "*",
+    "@thnbi/utils": "*",
     "next": "^13.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@thnbi/utils": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.0",
     "typescript": "4.9.4"
   }
 }

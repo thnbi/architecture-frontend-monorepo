@@ -8,9 +8,10 @@
         ]
     },
     "scripts": {
-      "web-public": "yarn workspace @thnbi/web-public dev",
+      "web-public": "yarn workspace @thnbi/web-public",
       "dev:web-public": "yarn web-public dev",
       "build:web-public": "yarn web-public build",
-      "start:web-public": "yarn web-public start"
+      "start:web-public": "yarn web-public start",
+      "design-system": "yarn workspace @thnbi/design-system"
     }
 }
