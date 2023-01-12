@@ -19,10 +19,12 @@
     "scripts": {
       "lint": "yarn workspaces run lint",
       "web-public": "yarn workspace @thnbi/web-public",
+      "design-system": "yarn workspace @thnbi/design-system",
+      "utils": "yarn workspace @thnbi/utils",
       "dev:web-public": "yarn web-public dev",
       "build:web-public": "yarn web-public build",
       "start:web-public": "yarn web-public start",
       "lint:web-public": "yarn web-public lint",
-      "design-system": "yarn workspace @thnbi/design-system"
+      "test:utils" : "yarn utils test"
     }
 }
