@@ -6,7 +6,7 @@ export default function HomeScreen() {
     <main>
       <Text tag="h1">Home</Text>
       <Text tag="p">
-        módulo local: @thnbi/utils/math/sum "sum(2,2)" = {sum(2, 2)}
+        módulo local: @thnbi/utils/math/sum &quot;sum(2,2)&quot; = {sum(2, 2)}
       </Text>
     </main>
   );

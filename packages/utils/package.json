@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"./**/*.{ts,tsx}\"",
+    "test": "jest"
+  },
   "devDependencies": {
+    "@thnbi/test-commons": "*",
+    "@thnbi/eslint-commons": "*",
     "@thnbi/tsconfig-commons": "*"
   }
 }
