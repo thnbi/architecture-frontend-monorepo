@@ -5,8 +5,8 @@ function DefaultWrapper({ children }) {
 }
 
 export const customRender = (AllTheProviders = DefaultWrapper) => {
-  return (ui) => {
-    return rtlRender(ui, { wrapper: AllTheProviders });
+  return (ui, options = {}) => {
+    return rtlRender(ui, { wrapper: AllTheProviders, ...options });
   }
 }
 

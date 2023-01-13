@@ -1,9 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Text /> renders h1 tag 1`] = `
+.c0 {
+  font-family: "Roboto",sans-serif;
+  font-weight: 700;
+}
+
 <div>
   <h1
-    class="sc-bcXHqe cQPymi"
+    class="c0"
   >
     Hello World
   </h1>

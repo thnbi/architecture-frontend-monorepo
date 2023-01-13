@@ -24,6 +24,7 @@
       "dev:web-public": "yarn web-public dev",
       "build:web-public": "yarn web-public build",
       "start:web-public": "yarn web-public start",
+      "test:web-public": "yarn web-public test",
       "test:design-system": "yarn design-system test",
       "lint:web-public": "yarn web-public lint",
       "test:utils" : "yarn utils test"
