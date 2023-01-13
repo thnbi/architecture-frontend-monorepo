@@ -6,8 +6,8 @@ const config: Config.InitialOptions = {
     testEnvironment: 'jsdom',
     verbose: true,
     transform: {
-        '\\.[jt]sx?$': ['babael-jest', {
-            configFile: path.resolve(_dirname, '.babelrc'),
+        '\\.[jt]sx?$': ['babel-jest', {
+            configFile: path.resolve(__dirname, '.babelrc'),
         }],
     }
 };

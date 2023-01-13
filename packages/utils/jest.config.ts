@@ -1,1 +1,1 @@
-export { default } from "@thnbi/test-commons/base"
+export { default } from "@thnbi/test-commons/base";
